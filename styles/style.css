@@ -98,8 +98,8 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
+  -webkit-animation: scaleAnim 1s ease-in;
+          animation: scaleAnim 1s ease-in;
   transform: translateY(0) scaleY(1);
 }
 @-webkit-keyframes scaleAnim {
@@ -154,6 +154,10 @@ section {
   font-size: 1.2rem;
   color: var(--grey-2-color);
   pointer-events: none;
+}
+.controls :hover {
+  opacity: 0.5;
+  right: 0;
 }
 
 .header-content {

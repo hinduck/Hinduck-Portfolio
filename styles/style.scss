@@ -98,7 +98,7 @@ section {
 
 .active {
     display: block;
-    animation: scaleAnim 1s ease-in-out;
+    animation: scaleAnim 1s ease-in;
     transform: translateY(0) scaleY(1);
     @keyframes scaleAnim {
         0% {
@@ -148,6 +148,11 @@ section {
             color: var(--grey-2-color);
             pointer-events: none;
         }
+    }
+    
+    :hover {
+        opacity: 0.5;
+        right: 0;
     }
 }
 
