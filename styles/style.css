@@ -141,8 +141,8 @@ section {
   padding: 1rem;
   cursor: pointer;
   background-color: var(--color-grey-4);
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -208,7 +208,7 @@ section {
   padding-right: 18rem;
 }
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 .header-content .right-header .name span {
   color: var(--secondary-color);
@@ -277,8 +277,14 @@ section {
   color: var(--grey-1-color);
 }
 .about-container .left-about h4 {
-  font-size: 2rem;
+  font-size: 2.4rem;
   text-transform: uppercase;
+}
+.about-container .left-about .text-important {
+  color: var(--secondary-color);
+  font-weight: 800;
+  font-size: 1.4rem;
+  font-style: oblique;
 }
 
 .about-stats {
@@ -635,8 +641,8 @@ section {
 .theme-btn {
   top: 5%;
   right: 3%;
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   background-color: var(--grey-4-color);
   cursor: pointer;
